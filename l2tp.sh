@@ -58,16 +58,16 @@ CFG
 # --- 10 клиентов ---
 cat > /etc/ppp/chap-secrets <<'CFG'
 # client        server   secret                   IP-addr
-router01        *        "hT9!sF7wP@lZ3q#M"      *
-router02        *        "X4z!Lm8kQ@r9"          *
-router03        *        "B7q$Vp2nHs1%"          *
-router04        *        "T2n@Kw6dFz8#"          *
-router05        *        "M9y#Gh3vLp4^"          *
-router06        *        "J6f!Qr8xDn5@"          *
-router07        *        "Z3k^Ty1mWc7$"          *
-router08        *        "P8w%Xn2gVr6!"          *
-router09        *        "C5d$Fb4hKs9@"          *
-router10        *        "R1v@Nj7yLt3#"          *
+router01        *        "Youre password"      *
+router02        *        "Youre password"          *
+router03        *        "Youre password"          *
+router04        *        "Youre password"          *
+router05        *        "Youre password"          *
+router06        *        "Youre password"          *
+router07        *        "Youre password"          *
+router08        *        "Youre password"          *
+router09        *        "Youre password"          *
+router10        *        "Youre password"          *
 CFG
 chown root:root /etc/ppp/chap-secrets
 chmod 600 /etc/ppp/chap-secrets
