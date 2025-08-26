@@ -1,3 +1,4 @@
+apt update && apt install -y xl2tpd ppp nftables
 cat > /root/setup_l2tp.sh <<'EOF'
 #!/usr/bin/env bash
 set -euo pipefail
